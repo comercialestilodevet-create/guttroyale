@@ -1,11 +1,11 @@
 :root {
-  --black: #050505;
+  --black: #030303;
   --black-2: #0b0b0b;
   --white: #f4f1ea;
   --muted: #aaa49c;
-  --gold: #d8a33b;
-  --gold-light: #f2c86d;
-  --pink: #ff23d7;
+  --gold: #c9922e;
+  --gold-light: #f3b83f;
+  --pink: #ff18d8;
   --red: #9f160d;
   --line: rgba(244,241,234,.13);
   --max: 1240px;
@@ -245,3 +245,11 @@ details p { color:#858078; line-height:1.7; font-size:12px; padding:14px 30px 0 
   .footer-contact { grid-column:auto; }
   .footer-bottom { margin-top:45px; flex-direction:column; gap:10px; }
 }
+
+/* GUTT ROYALE identity: black + vivid gold + vivid magenta, restrained reflections */
+body{background:radial-gradient(circle at 50% -10%,rgba(255,24,216,.075),transparent 30%),radial-gradient(circle at 100% 60%,rgba(201,146,46,.055),transparent 28%),#030303;}
+.brand img{width:48px;height:48px;object-fit:contain;border-radius:0;filter:none;}
+.brand span{color:var(--gold-light);}.nav a:hover{color:var(--pink);}.nav-cta{border-color:var(--pink);color:#ff65e5;}.nav-cta:hover{background:var(--pink);color:#050505;}
+.hero h1 span{color:var(--pink);text-shadow:0 0 26px rgba(255,24,216,.12);}.hero-sub{color:var(--gold-light);}.btn-primary{background:var(--pink);border-color:var(--pink);color:#070007;}.btn-primary:hover{background:#ff54e5;}
+.hero-frame{border-color:rgba(255,24,216,.22);}.seal{border-color:var(--pink);color:#ff65e5;}.quote{border-left-color:var(--pink);color:#ff65e5;}.artist:hover{border-color:rgba(255,24,216,.55);}
+.experience-card.large{background:radial-gradient(circle at 80% 15%,rgba(255,24,216,.13),transparent 30%),linear-gradient(145deg,#160914,#090909);}.ticket-section{background:radial-gradient(circle at 80% 50%,rgba(255,24,216,.10),transparent 25%),radial-gradient(circle at 20% 80%,rgba(201,146,46,.08),transparent 25%),#070707;}.ticket-box{border-color:var(--pink);}.ticket-box strong{color:var(--pink);}.whatsapp-link{color:#ff65e5;border-bottom-color:var(--pink);}
